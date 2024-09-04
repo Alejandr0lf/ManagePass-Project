@@ -18,11 +18,13 @@ public class UserAdmin extends User {
         }
     }
 
-    public UserAdmin getInsance() {
-        return Insance;
+    public String getAdminName() {
+        return AdminName;
     }
 
-    public void setInsance(UserAdmin insance) {
-        Insance = insance;
+    public void setAdminName(String adminName) {
+        AdminName = adminName;
     }
+
+    
 }
