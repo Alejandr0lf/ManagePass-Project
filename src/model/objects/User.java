@@ -4,14 +4,14 @@ import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.util.Date;
 
-public final class User {
+public class User {
 
     private int userCode;
     private String userPassword;
 
     public User(String userPassword) {
-        setUserCode(calculateUserCode());
-        setUserPassword(userPassword);
+        this.setUserCode(calculateUserCode());
+        this.setUserPassword(userPassword);
     }
 
     private int calculateUserCode() {
@@ -30,7 +30,7 @@ public final class User {
         return userCode;
     }
 
-    public void setUserCode(int userCode) {
+    private void setUserCode(int userCode) {
         this.userCode = userCode;
     }
 
@@ -38,7 +38,7 @@ public final class User {
         return userPassword;
     }
 
-    public void setUserPassword(String userPassword) {
+    private void setUserPassword(String userPassword) {
         this.userPassword = userPassword;
     }
 }
