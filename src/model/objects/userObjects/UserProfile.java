@@ -15,6 +15,8 @@ public class UserProfile extends User {
     private String defaultCity;
     private String defaultBiografy;
 
+    //Lista ServiceProfile
+
     public UserProfile(String name, String username, String email, String age, String borndate, String country,
             String province, String city, String biografy, String password) {
         super(password);
@@ -111,4 +113,5 @@ public class UserProfile extends User {
         this.defaultBiografy = defaultBiografy;
     }
 
+    
 }

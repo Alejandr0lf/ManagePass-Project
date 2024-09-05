@@ -7,6 +7,7 @@ import java.util.Date;
 public class User {
 
     private int userCode;
+    private String name;
     private String userPassword;
 
     public User(String userPassword) {
@@ -40,5 +41,13 @@ public class User {
 
     private void setUserPassword(String userPassword) {
         this.userPassword = userPassword;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
