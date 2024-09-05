@@ -1,4 +1,4 @@
-package model.objects;
+package model.objects.userObjects;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

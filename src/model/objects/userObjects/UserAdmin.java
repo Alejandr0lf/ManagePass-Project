@@ -1,4 +1,4 @@
-package model.objects;
+package model.objects.userObjects;
 
 public class UserAdmin extends User {
 
